@@ -2,34 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/mFav"
-        android:icon="@drawable/ic_baseline_favorite"
-        android:title="Favoritos"
+        android:id="@+id/mFeed"
+        android:icon="@drawable/ic_baseline_feedback"
+        android:title="Feddback"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mBuscar"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="Buscar"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mConfig"
+        android:id="@+id/mSetting"
         android:icon="@drawable/ic_baseline_settings"
-        android:title="Configurações"
+        android:title="Settings"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mHist"
-        android:icon="@drawable/ic_baseline_history"
-        android:title="Histórico"
+        android:id="@+id/mFood"
+        android:icon="@drawable/ic_baseline_fastfood"
+        android:title="Restaraunt"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mSobre"
+        android:id="@+id/mAbout"
         android:icon="@drawable/ic_baseline_info"
-        android:title="Sobre"
+        android:title="About"
         app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mShare"
-        android:icon="@drawable/ic_baseline_share"
-        android:title="Compartilhar"
-        app:showAsAction="ifRoom" />
+
 
 </menu>
