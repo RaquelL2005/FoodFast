@@ -30,12 +30,11 @@
             android:text="Lanches" />
 
     </com.google.android.material.tabs.TabLayout>
-    <FrameLayout
-        android:layout_below="@+id/idTabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/idContainerTabLayout"
-        android:background="#B0F1D277">
 
-    </FrameLayout>
+    <include
+        layout="@layout/fragment_porcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTabLayout" />
+
 </RelativeLayout>
