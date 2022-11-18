@@ -33,8 +33,21 @@
 
     <include
         layout="@layout/fragment_porcoes"
+        android:id="@+id/fragPorcoes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/idTabLayout" />
+    <include
+        layout="@layout/fragment_bebidas"
+        android:layout_width="match_parent"
+        android:id="@+id/fragBebidas"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragPorcoes" />
+    <include
+        layout="@layout/fragment_lanches"
+        android:id="@+id/fragLanches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragBebidas" />
 
 </RelativeLayout>
